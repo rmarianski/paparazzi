@@ -39,7 +39,7 @@ clean:
 	@rm -rvf $(EXE) src/*.o
 
 install:
-	@cp $(EXE) /usr/local/bin
+	@cp $(EXE) $(DESTDIR)/usr/local/bin
 
 uninstall:
 	@rm /usr/local/bin/$(EXE)
